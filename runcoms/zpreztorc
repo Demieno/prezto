@@ -111,6 +111,9 @@ zstyle ':prezto:module:history-substring-search' globbing-flags ''
 # zstyle ':prezto:module:prompt' theme 'powerline'
  zstyle ':prezto:module:prompt' theme 'paradox'
 
+# Set how themes that use promptpwd function display the pwd, can be 'short', 'long', or 'full'
+# zstyle ':prezto:module:prompt' pwd-length 'short'
+
 #
 # Ruby
 #
@@ -184,6 +187,7 @@ zstyle ':prezto:module:history-substring-search' globbing-flags ''
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
 
+<<<<<<< HEAD
 ### Custom ###
 
 # Directories
@@ -202,3 +206,7 @@ bindkey "^I" expand-or-complete-with-dots
 # added by Anaconda2 4.3.1 installer
 export PATH="/home/demi/anaconda2/bin:$PATH"
 ANACONDA_HOME="~/.conda/"
+=======
+# Set the default session name:
+# zstyle ':prezto:module:tmux:session' name 'YOUR DEFAULT SESSION NAME'
+>>>>>>> 6975b119b643eaf574c1c429fee15fab6947309d
